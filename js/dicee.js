@@ -84,9 +84,9 @@ document.querySelectorAll("img")[1].setAttribute("src", updateDiceTwo);
 // }
 
 if (diceOne === diceTwo) {
-  document.querySelector("h1").textContent = "Draw!";
+  document.querySelector("h1").innerHTML = "Draw!";
 } else if (diceOne > diceTwo) {
-  document.querySelector("h1").textContent = "🚩 Play 1 Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
 } else {
-  document.querySelector("h1").textContent = "Player 2 Wins! 🚩";
+  document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
 }
