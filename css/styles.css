@@ -1,0 +1,10 @@
+body {
+  background-color: grey;
+  color: #3A3E46;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #4FCDA3;
+  font-weight: bold;
+}
