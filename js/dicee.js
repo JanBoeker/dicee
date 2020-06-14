@@ -1,11 +1,10 @@
-diceOne = Math.floor(Math.random() * 5) + 1;
-diceTwo = Math.floor(Math.random() * 5) + 1;
-
 // Update first Dice
+var diceOne = Math.floor(Math.random() * 6) + 1;
 var updateDiceOne = "images/dice" + diceOne + ".png"
 document.querySelectorAll("img")[0].setAttribute("src", updateDiceOne);
 
 // Update second dice
+var diceTwo = Math.floor(Math.random() * 6) + 1;
 var updateDiceTwo = "images/dice" + diceTwo + ".png"
 document.querySelectorAll("img")[1].setAttribute("src", updateDiceTwo);
 
